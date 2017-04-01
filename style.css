@@ -1,0 +1,40 @@
+.profile {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.panel-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn btn-primary btn-lg {
+  margin-top: 190px;
+}
+
+#jumbotron {
+  background-image: url("pnulikelion_logo.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.content2 {
+  color: blue;
+}
+
+.button {
+  margin-top: 180px;
+
+}

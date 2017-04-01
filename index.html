@@ -1,48 +1,121 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>First project</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <title>Jo Yongwon</title>
   </head>
+  
   <body>
-      <table border="1">
-        <thead>
-          <caption>Info</caption>  
-        </thead>
-        <tbody>
-          <tr>
-            <th>name</th>
-            <th>age</th>
-            <th>phone</th>
-            <th>email</th>
-          </tr>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-3">
+        <h3>Assignment</h3>
+          <div class="panel panel-default">
+            <div class="panel-heading">MY INFO</div>
+            <div class="panel-content">
+              <img src="profile.png" class="profile">
+              <div class="panel-body">LIKELION</div>
+              <div class="panel-body">Yongwon Jo</div> 
+              <div class="panel-body">Progress</div>   
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                  <span class="sr-only">50% Complete (danger)</span>
+                  50%
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="button"><a class="btn btn-success btn-lg" href="#" role="button">Learn more</a></p>
+              <p class="button"><a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-md-9">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Home</a>
+            </div>
         
-          <tr>
-            <td>yongwon</td>
-            <td>21</td>
-            <td>01065613235</td>
-            <td>yong1jo@likelion.org</td>
-          </tr>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">First</a></li>
+                <li class="active"><a href="#">Second <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Third</a></li>
+                <li><a href="#">Fourth</a></li>
+                <li><a href="#">Fifth</a></li>
+                <li class="dropdown">
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="검색어를 입력해주세요.">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="jumbotron" id="jumbotron">
+          <p class="button"><a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
         
-            <tr>
-               <td>yongwon</td>
-               <td>21</td>
-               <td colspan="2">yong1jo@likelion.org</td>
-            </tr>
-                
-            <tr>
-               <td>yongwon</td>
-               <td>21</td>
-               <td rowspan="2">01065613235</td>
-               <td>yong1jo@likelion.org</td>
-            </tr>
-                
-          <tr>
-            <td>yongwon</td>
-            <td>21</td>
-            <td>yong1jo@likelion.org</td>
-          </tr>
+        <div class="content2">
+          <div class="panel panel-default">
+            <div class="panel-body">
+            고통받는 여러분을 보면서 보람을 느낍니다.
+            </div>
+          </div>
           
-      </tbody>
-    </table>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            어려운게 당연하니깐 질문 많이 하세요.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
